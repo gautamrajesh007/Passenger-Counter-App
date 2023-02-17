@@ -10,5 +10,4 @@ let saveEl = document.getElementById("save-el");;
 function save() {
   let countStr = count + " - ";
   saveEl.innerText = countStr;
-  // console.log("Saved");
 };
