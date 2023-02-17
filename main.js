@@ -3,11 +3,12 @@ let count = 0;
 function increment() {
   count = count + 1;
   document.getElementById("count-el").innerText = count;
-  console.log("Incremented");
 };
 
-function save() {
-  console.log("Saved");
-}
+let saveEl = document.getElementById("save-el");;
 
-// document.getElementById("increment-btn").addEventListener("click", increment());
+function save() {
+  let countStr = count + " - ";
+  saveEl.innerText = countStr;
+  // console.log("Saved");
+};
