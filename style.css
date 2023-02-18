@@ -56,6 +56,8 @@ button{
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+    top: 20.2px;
 }
 #increment-btn{
     background-color: hsl(115, 91%, 25%);
