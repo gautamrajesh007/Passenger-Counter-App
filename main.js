@@ -8,6 +8,11 @@ function increment() {
 let saveEl = document.getElementById("save-el");;
 
 function save() {
-  let countStr = count + " -  " + "\n";
-  saveEl.innerText += countStr;
+  let countStr = count + " -  ";
+  saveEl.textContent += countStr;
+};
+
+function reset() {
+  count = 0;
+  document.getElementById("count-el").innerText = count;
 };
